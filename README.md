@@ -112,8 +112,8 @@ When running from an IDE, ensure the working directory is the project root so th
     "id": 1,
     "room": "Riddle Chamber",
     "question": "...",
-    "answer": "...",      // also accepts "correctAnswer" (backward compatible)
-    "difficulty": "Easy"  // Easy | Medium | Hard
+    "answer": "...",      
+    "difficulty": "Easy"  
   }
   ```
 
@@ -123,8 +123,8 @@ When running from an IDE, ensure the working directory is the project root so th
     "username": "admin",
     "password": "adminpass",
     "email": "admin@gmail.com",
-    "role": "admin",     // or "user"
-    "avatar": "girl_2.png"  // optional
+    "role": "admin",     
+    "avatar": "girl_2.png"  
   }
   ```
 
