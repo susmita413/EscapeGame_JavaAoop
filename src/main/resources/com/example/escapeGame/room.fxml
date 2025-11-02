@@ -47,7 +47,7 @@
             <InnerShadow />
          </effect>
       </Button>
-      <Button fx:id="backButton" layoutX="56.0" layoutY="374.0" mnemonicParsing="false" onAction="#goBack" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: B7950B;" text="Back">
+      <Button fx:id="backButton" layoutX="56.0" layoutY="374.0" mnemonicParsing="false" onAction="#goBack" prefHeight="48.0" prefWidth="133.0" style="-fx-background-color: B7950B; -fx-background-radius: 10;" text="Back">
          <font>
             <Font name="Arial Black" size="16.0" />
          </font>
@@ -55,13 +55,21 @@
             <InnerShadow />
          </effect>
       </Button>
-      <Button layoutX="493.0" layoutY="374.0" mnemonicParsing="false" onAction="#openLeaderboard" prefHeight="48.0" prefWidth="156.0" style="-fx-background-color: e4a207; -fx-background-radius: 10;" text="Leaderboard">
+      <Button layoutX="490.0" layoutY="368.0" mnemonicParsing="false" onAction="#openLeaderboard" prefHeight="48.0" prefWidth="156.0" style="-fx-background-color: e4a207; -fx-background-radius: 10;" text="Leaderboard">
          <effect>
             <InnerShadow />
          </effect>
          <font>
             <Font name="Arial Black" size="16.799999237060547" />
          </font>
+      </Button>
+      <Button layoutX="245.0" layoutY="368.0" mnemonicParsing="false" onAction="#openInstruction" prefHeight="48.0" prefWidth="178.0" style="-fx-background-color: e4a207; -fx-background-radius: 10;" text="Instruction">
+         <font>
+            <Font name="Arial Black" size="16.799999237060547" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
       </Button>
    </children>
 </AnchorPane>

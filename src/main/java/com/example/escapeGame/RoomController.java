@@ -51,6 +51,11 @@ public class RoomController {
         LogIn.changeScene("com/example/escapeGame/leaderboard.fxml", "Leaderboard");
     }
     
+    @FXML
+    private void openInstruction(ActionEvent event) throws IOException {
+        LogIn.changeScene("com/example/escapeGame/Instruction.fxml", "Instruction");
+    }
+    
     private void navigateToLevel(String selectedRoom) throws IOException {
         // Store the selected room in Session for later use
         Session.getInstance().setSelectedRoom(selectedRoom);

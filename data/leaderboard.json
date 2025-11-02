@@ -2,7 +2,7 @@
   {
     "username": "sus",
     "soloPlays": 2,
-    "multiPlays": 10,
+    "multiPlays": 11,
     "escapes": [
       {
         "room": "Riddle Chamber",
@@ -73,13 +73,20 @@
         "date": "2025-11-02T18:24:47.419284800",
         "score": 70,
         "multiplayer": false
+      },
+      {
+        "room": "Riddle Chamber",
+        "level": "Hard",
+        "date": "2025-11-02T20:54:25.612109700",
+        "score": 81,
+        "multiplayer": true
       }
     ]
   },
   {
     "username": "arp",
     "soloPlays": 5,
-    "multiPlays": 9,
+    "multiPlays": 10,
     "escapes": [
       {
         "room": "Riddle Chamber",
@@ -164,13 +171,20 @@
         "date": "2025-11-02T18:57:43.860278800",
         "score": 70,
         "multiplayer": true
+      },
+      {
+        "room": "Riddle Chamber",
+        "level": "Hard",
+        "date": "2025-11-02T20:54:22.763361600",
+        "score": 68,
+        "multiplayer": true
       }
     ]
   },
   {
     "username": "mun",
     "soloPlays": 4,
-    "multiPlays": 9,
+    "multiPlays": 10,
     "escapes": [
       {
         "room": "Riddle Chamber",
@@ -240,6 +254,13 @@
         "level": "Hard",
         "date": "2025-11-02T18:57:37.357515200",
         "score": 99,
+        "multiplayer": true
+      },
+      {
+        "room": "Riddle Chamber",
+        "level": "Hard",
+        "date": "2025-11-02T20:54:24.391705",
+        "score": 89,
         "multiplayer": true
       }
     ]

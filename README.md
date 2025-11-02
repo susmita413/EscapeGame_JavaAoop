@@ -9,6 +9,18 @@ A JavaFX-based puzzle game with single-player and multiplayer modes. Content and
 - **Admin & puzzle manager**: Manage puzzles via UI.
 - **Leaderboard & scores**: Progress and scores persisted to JSON.
 
+## Gameplay & Instructions
+- **Access**: From `Choose Your Room` (`room.fxml`), click the `Instruction` button to open `Instruction.fxml`.
+- **Progression**: Levels unlock per room in order: Easy → Medium → Hard.
+- **Solo**:
+  - Time per question: Easy 90s, Medium 120s, Hard 150s.
+  - Scoring: +10 correct, -5 wrong. Escape target: 50 points.
+- **Multiplayer**:
+  - Time per question: Easy 90s, Medium 120s, Hard 150s.
+  - Scoring by order: 1st +10, 2nd +8, 3rd +6, 4th+ +4; -5 wrong.
+  - Team bonuses: +2 each if everyone is correct; +5 each if any correct within 10s. Host may require 2–4 players; game auto-starts when reached.
+- **Crowns**: 👑 for each room completed on Hard; 👑👑👑 when Hard is completed in all rooms.
+
 ## Tech Stack
 - **Java 21**, **Maven**
 - **JavaFX 21** (controls, fxml, web, media, swing)
@@ -41,7 +53,7 @@ Escape_Game/
       │     └─ ServerMain.java          # Multiplayer socket server (port 9090)
       └─ resources/
          └─ com/example/escapeGame/
-            ├─ login.fxml, mode.fxml, game.fxml, ...
+            ├─ login.fxml, room.fxml, level.fxml, mode.fxml, competitiveGame.fxml, Instruction.fxml, leaderboard.fxml, ...
             └─ (FXML views / assets)
 ```
 
@@ -63,16 +75,20 @@ Alternatively, in an IDE:
 - Run `com.example.escapeGame.Launcher` (it calls `Application.launch(LogIn.class, args)`), or
 - Run `com.example.escapeGame.LogIn` directly.
 
+## Windows helper scripts
+- `run.bat` – runs via Maven JavaFX plugin (`mvnw.cmd javafx:run`). Update `JAVA_HOME` if needed.
+- `run_with_javafx.bat` – downloads JavaFX jars to `lib/` and runs with plain `java`.
+- `run_direct.bat` – compiles sources and runs with explicit module-path. Update `JAVA_HOME` if needed.
+
 ## Run the Multiplayer Server
 The server is a plain Java socket app; default port is **9090**.
 
 - In an IDE: run `com.example.escapeGame.server.ServerMain`.
 - From CLI:
   ```bash
-  mvn -q -DskipTests package
-  java -cp target/classes com.example.escapeGame.server.ServerMain 9090
+  mvn -q -DskipTests exec:java -Dexec.mainClass=com.example.escapeGame.server.ServerMain -Dexec.args=9090
   ```
-  You can omit `9090` to use the default.
+  You can omit `-Dexec.args=9090` to use the default.
 
 Start the server first, then run one or more clients to host/join rooms.
 
@@ -84,6 +100,8 @@ Runtime data lives in the project-level `data/` directory:
 - `data/scores.json` (created on first save)
 
 The utilities ensure the `data/` folder exists and will create empty files if missing. Editing these JSON files updates the game content and users immediately.
+
+When running from an IDE, ensure the working directory is the project root so the app reads/writes `data/`.
 
 > Note: Older copies of JSON under `src/main/resources/` are not used at runtime for persistence. Keep only the `data/` versions to avoid confusion.
 
@@ -123,6 +141,8 @@ The utilities ensure the `data/` folder exists and will create empty files if mi
 - **JavaFX runtime errors**: Use `mvn javafx:run`. This configures module-path for you.
 - **Deleting resource JSON shows IDE conflicts**: Prefer a plain Delete (not Safe Delete/Refactor), then commit the removal. The code only uses `data/`.
 - **Server not reachable**: Verify the port (9090 by default) and firewall settings.
+
+- **Instruction icon missing**: If the lock icon in the Instruction header doesn’t display, add `src/main/resources/img/lock.png` (optional aesthetic).
 
 ## Build & Test
 ```bash
