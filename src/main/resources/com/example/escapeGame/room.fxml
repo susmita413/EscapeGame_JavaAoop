@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escapeGame.RoomController">
+   <children>
+      <ImageView fitHeight="477.0" fitWidth="737.0" layoutX="-18.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/boxbg.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="126.0" layoutY="35.0" prefHeight="84.0" prefWidth="442.0" text="Choose Your Room">
+         <font>
+            <Font name="Arial Black" size="36.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <Button fx:id="riddleChamberButton" layoutX="220.0" layoutY="138.0" mnemonicParsing="false" onAction="#selectRiddleChamber" prefHeight="50.0" prefWidth="228.0" style="-fx-background-color: #e4a207;" text="Riddle Chamber">
+         <font>
+            <Font name="Arial Black" size="16.799999237060547" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="programmingLabButton" layoutX="220.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectProgrammingLab" prefHeight="50.0" prefWidth="228.0" style="-fx-background-color: #e4a207;" text="Programming Lab">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="mathQuizButton" layoutX="220.0" layoutY="267.0" mnemonicParsing="false" onAction="#selectMathQuiz" prefHeight="50.0" prefWidth="228.0" style="-fx-background-color: #e4a207;" text="Math Quiz">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="backButton" layoutX="56.0" layoutY="374.0" mnemonicParsing="false" onAction="#goBack" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: B7950B;" text="Back">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button layoutX="493.0" layoutY="374.0" mnemonicParsing="false" onAction="#openLeaderboard" prefHeight="48.0" prefWidth="156.0" style="-fx-background-color: e4a207; -fx-background-radius: 10;" text="Leaderboard">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Arial Black" size="16.799999237060547" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

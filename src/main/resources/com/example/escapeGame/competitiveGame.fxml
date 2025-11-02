@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/21.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escapeGame.CompetitiveGameController">
+   <top>
+      <HBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #BA892E;">
+         <children>
+            <Label fx:id="usernameLabel" text="User: " textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="roomCodeLabel" text="Room Code: 000000" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="questionCounterLabel" text="Question 1/10" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="timerLabel" text="30" textFill="#ff6b6b">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+         </padding>
+      </HBox>
+   </top>
+   
+   <center>
+     <VBox alignment="CENTER" fillWidth="true" spacing="30.0" style="-fx-background-color: #4E2D10;">
+        <children>
+           <ScrollPane fx:id="questionScroll" fitToWidth="true" hbarPolicy="NEVER" maxWidth="Infinity" minHeight="200.0" prefHeight="240.0" style="-fx-background-color: transparent; -fx-background-insets: 0; -fx-padding: 0; -fx-background-radius: 10;" vbarPolicy="AS_NEEDED" VBox.vgrow="ALWAYS">
+              <content>
+                 <Label fx:id="questionLabel" alignment="CENTER" maxWidth="Infinity" style="-fx-background-color: #C9942A; -fx-background-radius: 10;" text="What has keys but can't open locks?" wrapText="true">
+                    <font>
+                       <Font name="Arial Bold" size="20.0" />
+                    </font>
+                    <padding>
+                       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </padding>
+                 </Label>
+              </content>
+               <effect>
+                  <InnerShadow />
+               </effect>
+           </ScrollPane>
+            
+            <TextField fx:id="answerField" maxWidth="400.0" promptText="Enter your answer..." style="-fx-background-radius: 10;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            
+            <Button fx:id="submitButton" maxWidth="200.0" mnemonicParsing="false" onAction="#submitAnswer" style="-fx-background-color: #C9942A; -fx-background-radius: 10;" text="Submit Answer">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </center>
+   
+   <right>
+      <VBox fx:id="rightPanel" prefWidth="200.0" style="-fx-background-color: #7A4815;">
+         <children>
+            <Label text="Players" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <ListView fx:id="playersListView" VBox.vgrow="ALWAYS" />
+            <VBox spacing="5.0" style="-fx-background-color: #6C380D;">
+               <children>
+                  <Label fx:id="scoreLabel" text="Your Score: 0" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Button fx:id="nextQuestionButton" maxWidth="Infinity" mnemonicParsing="false" onAction="#nextQuestion" style="-fx-background-color: #A43C19; -fx-background-radius: 5;" text="Next Question" visible="false">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </children>
+      </VBox>
+   </right>
+   
+   <bottom>
+      <HBox alignment="CENTER_LEFT" spacing="20.0" style="-fx-background-color: #6C380D;">
+         <children>
+            <Button fx:id="openChatButton" mnemonicParsing="false" onAction="#openChat" style="-fx-background-color: #C9942A; -fx-background-radius: 5;" text="Open Chat">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="leaveButton" mnemonicParsing="false" onAction="#leaveRoom" style="-fx-background-color: #A43C19; -fx-background-radius: 5;" text="Leave Room">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Region HBox.hgrow="ALWAYS" />
+            <Label fx:id="soloScoreLabel" text="Your Score: 0" textFill="WHITE" visible="false">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </bottom>
+</BorderPane>

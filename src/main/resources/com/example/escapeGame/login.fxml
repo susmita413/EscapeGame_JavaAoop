@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="412.0" prefWidth="616.0" style="-fx-background-color: #4C2B09;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escapeGame.LoginController">
+   <effect>
+      <InnerShadow />
+   </effect>
+   <left>
+      <AnchorPane prefHeight="417.0" prefWidth="602.0" BorderPane.alignment="CENTER">
+            <ImageView fitHeight="421.0" fitWidth="620.0" layoutX="-4.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/login_f.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="283.0" layoutY="22.0" prefHeight="400.0" prefWidth="303.0">
+               <children>
+                  <Label layoutX="11.0" layoutY="115.0" text="Username" textFill="#e4a207">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="168.0" text="Password" textFill="#e4a207">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username" layoutX="118.0" layoutY="113.0" prefHeight="35.0" prefWidth="198.0" promptText="Username" style="-fx-background-color: E5C983;">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </TextField>
+                  <PasswordField fx:id="password" layoutX="118.0" layoutY="166.0" prefHeight="35.0" prefWidth="197.0" promptText="Password" style="-fx-background-color: E5C983;">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </PasswordField>
+                  <Button fx:id="loginButton" layoutX="130.0" layoutY="248.0" mnemonicParsing="false" defaultButton="true" onAction="#userLogin" style="-fx-background-color: DCA243;" text="Log In" textFill="#593509">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="wrongLogin" layoutX="14.0" layoutY="214.0" prefHeight="24.0" prefWidth="300.0" text="" textFill="#f20404" />
+                  <ImageView fitHeight="60.0" fitWidth="62.0" layoutX="133.0" layoutY="24.0">
+                     <image>
+                        <Image url="@../../../img/lock.png" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+                  <Button fx:id="createAccountButton" layoutX="14.0" layoutY="331.0" mnemonicParsing="false" onAction="#goToCreateAccount" style="-fx-background-color: DCA243;" text="Create Account" textFill="#5e3601">
+                     <font>
+                        <Font name="Arial Bold" size="16.799999237060547" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Label layoutX="14.0" layoutY="311.0" text="If you haven't any account, create one." textFill="#f7e59c">
+                     <font>
+                        <Font name="Arial" size="16.799999237060547" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+      </AnchorPane>
+   </left>
+</BorderPane>

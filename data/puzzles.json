@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "room": "Riddle Chamber",
+    "question": "The more you take, the more you leave behind.",
+    "answer": "Footsteps",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "room": "Riddle Chamber",
+    "question": "What has to be broken before you can use it?",
+    "answer": "Egg",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "room": "Riddle Chamber",
+    "question": "I\u0027m tall when I\u0027m young, and short when I\u0027m old. What am I?",
+    "answer": "Candle",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "room": "Riddle Chamber",
+    "question": "What has hands but can\u0027t clap?",
+    "answer": "Clock",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "room": "Riddle Chamber",
+    "question": "What has keys but can\u0027t open locks?",
+    "answer": "Piano",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "room": "Riddle Chamber",
+    "question": "What gets wetter as it dries?",
+    "answer": "Towel",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "room": "Riddle Chamber",
+    "question": "I have a face and two hands but no arms or legs. What am I?",
+    "answer": "Clock",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8,
+    "room": "Riddle Chamber",
+    "question": "What can travel around the world while staying in a corner?",
+    "answer": "Stamp",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 9,
+    "room": "Riddle Chamber",
+    "question": "What has a neck but no head?",
+    "answer": "Bottle",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "room": "Riddle Chamber",
+    "question": "What runs but never walks?",
+    "answer": "Water",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "room": "Riddle Chamber",
+    "question": "I speak without a mouth and hear without ears. What am I?",
+    "answer": "Echo",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 12,
+    "room": "Riddle Chamber",
+    "question": "The person who makes it sells it. The person who buys it never uses it. What is it?",
+    "answer": "Coffin",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "room": "Riddle Chamber",
+    "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    "answer": "Letter M",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "room": "Riddle Chamber",
+    "question": "What has cities, but no houses; forests, but no trees; and water, but no fish?",
+    "answer": "Map",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "room": "Riddle Chamber",
+    "question": "I have branches, but no fruit, trunk, or leaves. What am I?",
+    "answer": "Bank",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 16,
+    "room": "Riddle Chamber",
+    "question": "The more of this there is, the less you see. What is it?",
+    "answer": "Darkness",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "room": "Riddle Chamber",
+    "question": "I\u0027m full of holes but I can still hold water. What am I?",
+    "answer": "Sponge",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "room": "Riddle Chamber",
+    "question": "What can fill a room but takes up no space?",
+    "answer": "Light",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 19,
+    "room": "Riddle Chamber",
+    "question": "What goes up but never comes down?",
+    "answer": "Age",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "room": "Riddle Chamber",
+    "question": "What begins with T, ends with T, and has T in it?",
+    "answer": "Teapot",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 21,
+    "room": "Riddle Chamber",
+    "question": "What disappears as soon as you say its name?",
+    "answer": "Silence",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 22,
+    "room": "Riddle Chamber",
+    "question": "The more you take away from me, the bigger I get. What am I?",
+    "answer": "Hole",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 23,
+    "room": "Riddle Chamber",
+    "question": "I have cities but no people, mountains but no trees, and water but no fish. What am I?",
+    "answer": "Map",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 24,
+    "room": "Riddle Chamber",
+    "question": "If you have me, you want to share me. If you share me, you don\u0027t have me. What am I?",
+    "answer": "Secret",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 25,
+    "room": "Riddle Chamber",
+    "question": "I am not alive, but I grow. I don\u0027t have lungs, but I need air. What am I?",
+    "answer": "Fire",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 26,
+    "room": "Riddle Chamber",
+    "question": "I am always hungry and will die if not fed, but whatever I touch will soon turn red. What am I?",
+    "answer": "Fire",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 27,
+    "room": "Riddle Chamber",
+    "question": "What flies without wings and cries without eyes?",
+    "answer": "Cloud",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 28,
+    "room": "Riddle Chamber",
+    "question": "What has many teeth but can\u0027t bite?",
+    "answer": "Comb",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 29,
+    "room": "Riddle Chamber",
+    "question": "What invention lets you look right through a wall?",
+    "answer": "Window",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 30,
+    "room": "Riddle Chamber",
+    "question": "I am seen in the water if seen in the sky. I am in the rainbow, a jay\u0027s feather, and lapis lazuli. What am I?",
+    "answer": "Blue",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 31,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(2 + 3 * 4);",
+    "answer": "14",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 32,
+    "room": "Programming Lab",
+    "question": "ASCII value of \u0027A\u0027 ?",
+    "answer": "65",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 33,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(\"Hello\" + 5 + 3);",
+    "answer": "Hello53",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 34,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(5 + 3 + \"Hello\");",
+    "answer": "8Hello",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 35,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(\u0027A\u0027 + 1);",
+    "answer": "66",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 36,
+    "room": "Programming Lab",
+    "question": "Which operator compares values?",
+    "answer": "== ",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 37,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(10 / 4);",
+    "answer": "2",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 38,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(10.0 / 4);",
+    "answer": "2.5",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 39,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(3 \u003e 2 \u0026\u0026 5 \u003c 10);",
+    "answer": "true",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 40,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(5 \u003d\u003d 5 \u0026\u0026 5 !\u003d 10);",
+    "answer": "true",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "room": "Programming Lab",
+    "question": "Pre-increment operator?",
+    "answer": "++i",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 42,
+    "room": "Programming Lab",
+    "question": "Output of: int i\u003d5; System.out.println(i++);",
+    "answer": "5",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 43,
+    "room": "Programming Lab",
+    "question": "Output of: int i\u003d5; System.out.println(++i);",
+    "answer": "6",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 44,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(10 % 3);",
+    "answer": "1",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 45,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(Math.max(5,10));",
+    "answer": "10",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 46,
+    "room": "Programming Lab",
+    "question": "String literals use which quotes?",
+    "answer": "double",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 47,
+    "room": "Programming Lab",
+    "question": "Keyword to create an object?",
+    "answer": "new",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 48,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(5 \u003e 3 ? 10 : 20);",
+    "answer": "10",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 49,
+    "room": "Programming Lab",
+    "question": "Keyword to stop a loop?",
+    "answer": "break",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 50,
+    "room": "Programming Lab",
+    "question": "Default value of int?",
+    "answer": "0",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 51,
+    "room": "Programming Lab",
+    "question": "Exception when using null object?",
+    "answer": "NullPointerException",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "room": "Programming Lab",
+    "question": "Output of: int[] arr\u003d{1,2,3}; System.out.println(arr[2]);",
+    "answer": "3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "room": "Programming Lab",
+    "question": "Missing part in: int[] a \u003d new int[];",
+    "answer": "size",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "room": "Programming Lab",
+    "question": "Output of: for(int i\u003d0;i\u003c3;i++){System.out.print(i);}",
+    "answer": "012",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "room": "Programming Lab",
+    "question": "Output of: String s\u003d\"Java\"; System.out.println(s.charAt(2));",
+    "answer": "v",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 56,
+    "room": "Programming Lab",
+    "question": "Type of error in: for(int i\u003d0;i\u003c5;i--)?",
+    "answer": "infinite",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "room": "Programming Lab",
+    "question": "Extra character in: if(x\u003e10); ?",
+    "answer": "semicolon",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 58,
+    "room": "Programming Lab",
+    "question": "Output of nested if: a\u003d5,b\u003d10; if(a\u003cb) {if(b\u003d\u003d10)System.out.println(\"Yes\");}",
+    "answer": "Yes",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "room": "Programming Lab",
+    "question": "Are Java strings mutable?",
+    "answer": "false",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 60,
+    "room": "Programming Lab",
+    "question": "Output of: Math.sqrt(-1)?",
+    "answer": "NaN",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 61,
+    "room": "Programming Lab",
+    "question": "Output: int x\u003d5; while(x\u003c5){x++;} System.out.println(x);",
+    "answer": "5",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "room": "Programming Lab",
+    "question": "Length of \"Java\"?",
+    "answer": "4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 63,
+    "room": "Programming Lab",
+    "question": "Exception: s.charAt(4) when s\u003d\"Java\"?",
+    "answer": "StringIndexOutOfBounds",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "room": "Programming Lab",
+    "question": "Output of nested loop: for(i\u003d1;i\u003c\u003d3;i++){for(j\u003d1;j\u003c\u003d2;j++){System.out.print(i*j+\" \");}}",
+    "answer": "1 2 2 4 3 6",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 65,
+    "room": "Programming Lab",
+    "question": "Error when accessing a[3] in int[] a\u003d{1,2,3};",
+    "answer": "ArrayIndexOutOfBounds",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 66,
+    "room": "Programming Lab",
+    "question": "Output of: \"java\".equals(\"Java\")?",
+    "answer": "false",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 67,
+    "room": "Programming Lab",
+    "question": "Required argument for new Scanner()?",
+    "answer": "System.in",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 68,
+    "room": "Programming Lab",
+    "question": "Output: int a\u003d10,b\u003d0; System.out.println(a/b);",
+    "answer": "ArithmeticException",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "room": "Programming Lab",
+    "question": "Output: \"Hello\".substring(1,4)?",
+    "answer": "ell",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 70,
+    "room": "Programming Lab",
+    "question": "Output: int x\u003d5; x+\u003d x++ + ++x; System.out.println(x);",
+    "answer": "17",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 71,
+    "room": "Programming Lab",
+    "question": "Output: int a\u003d5; System.out.println(a++ + a++);",
+    "answer": "11",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 72,
+    "room": "Programming Lab",
+    "question": "Swap two numbers without third variable (first step)?",
+    "answer": "a\u003da+b",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 73,
+    "room": "Programming Lab",
+    "question": "Output of f(4) in factorial recursion?",
+    "answer": "24",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 74,
+    "room": "Programming Lab",
+    "question": "Exception for looping null array?",
+    "answer": "NullPointerException",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 75,
+    "room": "Programming Lab",
+    "question": "Output of: \"Java\".concat(\"FX\")?",
+    "answer": "JavaFX",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 76,
+    "room": "Programming Lab",
+    "question": "Access type of variable x in class A{private int x;}?",
+    "answer": "private",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 77,
+    "room": "Programming Lab",
+    "question": "Output: int[] a\u003d{1,2,3}; for(int i:a){i++;} System.out.println(a[0]);",
+    "answer": "1",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 78,
+    "room": "Programming Lab",
+    "question": "Exception for Integer.parseInt(\"12a\")?",
+    "answer": "NumberFormatException",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 79,
+    "room": "Programming Lab",
+    "question": "Output: int a\u003d0,b\u003d0; if(a++ \u003d\u003d 0 || ++b \u003d\u003d1) System.out.println(a+\" \"+b);",
+    "answer": "1 0",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 80,
+    "room": "Programming Lab",
+    "question": "Output: boolean x\u003dtrue,y\u003dfalse; if(x\u003dy\u003dtrue) System.out.println(\"Yes\");",
+    "answer": "Yes",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 81,
+    "room": "Programming Lab",
+    "question": "Output: System.out.println(10/0.0);",
+    "answer": "Infinity",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 82,
+    "room": "Programming Lab",
+    "question": "Output: int i\u003d1; i\u003di++ + ++i; System.out.println(i);",
+    "answer": "4",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 83,
+    "room": "Programming Lab",
+    "question": "Output of try-catch: int x\u003d10/0; catch prints?",
+    "answer": "Error",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 84,
+    "room": "Programming Lab",
+    "question": "Output: String a\u003d\"abc\",b\u003d\"abc\"; System.out.println(a\u003d\u003db);",
+    "answer": "true",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 85,
+    "room": "Programming Lab",
+    "question": "Output: new String(\"abc\")\u003d\u003dnew String(\"abc\")?",
+    "answer": "false",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 86,
+    "room": "Programming Lab",
+    "question": "Output: Math.min(Double.NaN,10)?",
+    "answer": "NaN",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 87,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(new int[]{1,2,3});",
+    "answer": "reference",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 88,
+    "room": "Programming Lab",
+    "question": "Exception: arr[0].length() in new String[2]?",
+    "answer": "NullPointerException",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 89,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(10\u003e\u003e1);",
+    "answer": "5",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 90,
+    "room": "Programming Lab",
+    "question": "Output of: System.out.println(10\u003e\u003e\u003e1);",
+    "answer": "5",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 91,
+    "room": "Math Quiz",
+    "question": "Find: 5 + 3 × 2 \u003d ?",
+    "answer": "11",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 92,
+    "room": "Math Quiz",
+    "question": "Calculate: (10 - 4) ÷ 2 \u003d ?",
+    "answer": "3",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 93,
+    "room": "Math Quiz",
+    "question": "What is the square of 8?",
+    "answer": "64",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 94,
+    "room": "Math Quiz",
+    "question": "Simplify: √81 \u003d ?",
+    "answer": "9",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 95,
+    "room": "Math Quiz",
+    "question": "Find 15% of 200.",
+    "answer": "30",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 96,
+    "room": "Math Quiz",
+    "question": "Evaluate: 2³ + 3² \u003d ?",
+    "answer": "17",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 97,
+    "room": "Math Quiz",
+    "question": "A rectangle has length 8 and width 3. Find the area.",
+    "answer": "24",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 98,
+    "room": "Math Quiz",
+    "question": "Convert 0.5 hours to minutes.",
+    "answer": "30",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 99,
+    "room": "Math Quiz",
+    "question": "How many sides does a hexagon have?",
+    "answer": "6",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 100,
+    "room": "Math Quiz",
+    "question": "Sum of all angles in a triangle?",
+    "answer": "180",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 101,
+    "room": "Math Quiz",
+    "question": "Solve: x + 5 \u003d 12",
+    "answer": "7",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 102,
+    "room": "Math Quiz",
+    "question": "Find: If 2x \u003d 10, then x + 3 \u003d ?",
+    "answer": "8",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "room": "Math Quiz",
+    "question": "Simplify: (3x + 5x) - 2x",
+    "answer": "6x",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 104,
+    "room": "Math Quiz",
+    "question": "Find the mean of 4, 8, 12, and 16.",
+    "answer": "10",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "room": "Math Quiz",
+    "question": "A car moves at 50 km/h for 3 hours. Distance covered?",
+    "answer": "150",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 106,
+    "room": "Math Quiz",
+    "question": "Simplify: (12/3) × (9/6)",
+    "answer": "6",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "room": "Math Quiz",
+    "question": "Find HCF of 24 and 36.",
+    "answer": "12",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "room": "Math Quiz",
+    "question": "Find LCM of 4, 5, and 6.",
+    "answer": "60",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 109,
+    "room": "Math Quiz",
+    "question": "If a \u003d 5 and b \u003d 2, find a² + b².",
+    "answer": "29",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 110,
+    "room": "Math Quiz",
+    "question": "Solve: 2x + 3 = 9",
+    "answer": "3",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 111,
+    "room": "Math Quiz",
+    "question": "Solve the equation: 2x² - 8x = 0",
+    "answer": "x=0 or 4",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 112,
+    "room": "Math Quiz",
+    "question": "If sinθ = 0.5, find θ.",
+    "answer": "30 degree",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 113,
+    "room": "Math Quiz",
+    "question": "Simplify: (x³y²) ÷ (xy)",
+    "answer": "(x^2)y",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 114,
+    "room": "Math Quiz",
+    "question": "Find (x + y)² if x=3 and y=4.",
+    "answer": "49",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 115,
+    "room": "Math Quiz",
+    "question": "Find determinant of [[2,3],[1,4]].",
+    "answer": "5",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 116,
+    "room": "Math Quiz",
+    "question": "Solve: x² - 5x + 6= 0",
+    "answer": "x= 2 or 3",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 117,
+    "room": "Math Quiz",
+    "question": "Differentiate: f(x)= 3x² + 2x + 1",
+    "answer": "6x+2",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 118,
+    "room": "Math Quiz",
+    "question": "Integrate: ∫x dx",
+    "answer": "(x^2)/2 + C",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 119,
+    "room": "Math Quiz",
+    "question": "If tanθ= 1, find θ.",
+    "answer": "45 degree",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 120,
+    "room": "Math Quiz",
+    "question": "Expand: (2x - 3)(x + 4)",
+    "answer": "2x^2 + 5x - 12",
+    "difficulty": "Hard"
+  }
+]

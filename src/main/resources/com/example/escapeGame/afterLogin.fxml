@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escapeGame.AfterLoginController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="608.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="412.0" fitWidth="626.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/login_f.jpg" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_LEFT" layoutX="337.0" layoutY="31.0" prefHeight="358.0" prefWidth="249.0" spacing="30.0">
+               <children>
+                  <Label fx:id="usernameLabel" prefHeight="26.0" prefWidth="54.0" style="-fx-background-color: E4A247; -fx-background-radius: 20;" text="USR" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="16.799999237060547" />
+                     </font>
+                     <effect>
+                        <InnerShadow height="56.9" radius="21.45" width="30.9">
+                           <color>
+                              <Color red="0.21052631735801697" green="0.21052631735801697" blue="0.061598438769578934" />
+                           </color>
+                        </InnerShadow>
+                     </effect>
+                  </Label>
+                  <Button fx:id="profileButton" mnemonicParsing="false" onAction="#goToProfile" prefHeight="50.0" prefWidth="220.0" style="-fx-background-color: C9942A; -fx-background-radius: 10;" text="Profile">
+                     <font>
+                        <Font name="Arial Black" size="16.799999237060547" />
+                     </font>
+                  </Button>
+                  <Button fx:id="startGameButton" mnemonicParsing="false" onAction="#startGame" prefHeight="50.0" prefWidth="220.0" style="-fx-background-color: C9942A; -fx-background-radius: 10;" text="Start Game">
+                     <font>
+                        <Font name="Arial Black" size="16.799999237060547" />
+                     </font>
+                  </Button>
+                  <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#userLogOut" prefHeight="50.0" prefWidth="220.0" style="-fx-background-color: C9942A; -fx-background-radius: 10;" text="Log out">
+                     <font>
+                        <Font name="Arial Black" size="16.799999237060547" />
+                     </font>
+                  </Button>
+                  <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitGame" prefHeight="50.0" prefWidth="220.0" style="-fx-background-color: #A43C19; -fx-background-radius: 10;" text="Exit">
+                     <font>
+                        <Font name="Arial Black" size="16.799999237060547" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
